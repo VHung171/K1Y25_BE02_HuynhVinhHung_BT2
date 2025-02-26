@@ -43,10 +43,10 @@ public class AuthController : ControllerBase
             return Unauthorized(new { message = "Sai tên đăng nhập hoặc mật khẩu!" });
         }
 
-        if (user.RoleId != 2) 
-        {
-            return Unauthorized(new { message = "Bạn không có quyền đăng nhập vào hệ thống!" });
-        }
+        //if (user.RoleId != 2) 
+        //{
+         //   return Unauthorized(new { message = "Bạn không có quyền đăng nhập vào hệ thống!" });
+        //}
         var tokenHandler = new JwtSecurityTokenHandler();
         var key = Encoding.ASCII.GetBytes(_configuration["Jwt:Key"]); // Sử dụng IConfiguration để lấy giá trị từ appsettings.json
 
