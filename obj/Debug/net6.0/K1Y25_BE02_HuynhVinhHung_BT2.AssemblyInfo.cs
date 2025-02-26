@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("K1Y25_BE02_HuynhVinhHung_BT2")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f5a2d8ab6d7878369028c25fb7b910443ea8988a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e1cc2088805033728b4160ea1cbb696fd1ddaa1b")]
 [assembly: System.Reflection.AssemblyProductAttribute("K1Y25_BE02_HuynhVinhHung_BT2")]
 [assembly: System.Reflection.AssemblyTitleAttribute("K1Y25_BE02_HuynhVinhHung_BT2")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
